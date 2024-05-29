@@ -1,4 +1,3 @@
-##siva parvathi
 all <- read.csv(file.choose()) #open ThreeClusters.csv
 head(all)
 qplot(data=all, x=V1, y=V2) # kind of Obvious!!!
@@ -80,4 +79,4 @@ kmeans(mat,centers=3) # divide into 3 groups
 km = kmeans(mat,centers=3)$cluster # vector of cluster belonging
 all$cl <- km
 scatter3D(all$English,all$Math,all$Science, colvar=all$cl)
-
+#sivaparvathi
